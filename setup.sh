@@ -1,5 +1,9 @@
 #!/bin/zsh
 
+# add current folder to PATH
+# shellcheck disable=SC2155
+export PATH="$PATH:$(pwd)"
+
 # set proxy for zsh
 echo 'export all_proxy="http://127.0.0.1:6152"' >> ~/.zprofile
 
