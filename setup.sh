@@ -40,6 +40,8 @@ git config --global gpg.program "/usr/local/MacGPG2/bin/gpg"
 duti -s com.microsoft.VSCode public.plain-text all
 duti -s com.microsoft.VSCode public.data all
 duti -s com.microsoft.VSCode md all
+duti -s com.microsoft.VSCode conf all
+duti -s com.microsoft.VSCode public.source-code all
 ## set default archive utility
 duti -s com.aone.keka public.zip-archive all
 duti -s com.aone.keka com.rarlab.rar-archive all
