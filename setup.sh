@@ -20,3 +20,15 @@ brew bundle --file=./Brewfile
 # set proxy for git
 git config --global http.proxy http://127.0.0.1:6152
 git config --global https.proxy http://127.0.0.1:6152
+
+# set default text editor
+duti -s com.microsoft.VSCode public.plain-text all
+duti -s com.microsoft.VSCode public.data all
+duti -s com.microsoft.VSCode md all
+
+# set default archive utility
+duti -s com.aone.keka public.zip-archive all
+duti -s com.aone.keka com.rarlab.rar-archive all
+duti -s com.aone.keka org.7-zip.7-zip-archive all
+duti -s com.aone.keka public.tar-archive all
+duti -s com.aone.keka org.gnu.gnu-zip-archive all
