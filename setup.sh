@@ -41,6 +41,12 @@ duti -s com.microsoft.VSCode public.plain-text all
 duti -s com.microsoft.VSCode public.data all
 duti -s com.microsoft.VSCode md all
 duti -s com.microsoft.VSCode conf all
+duti -s com.microsoft.VSCode log all
+duti -s com.microsoft.VSCode vtt all
+duti -s com.microsoft.VSCode public.xml all
+duti -s com.microsoft.VSCode public.json all
+duti -s com.microsoft.VSCode public.yaml all
+duti -s com.microsoft.VSCode public.csv all
 duti -s com.microsoft.VSCode public.source-code all
 ## set default archive utility
 duti -s com.aone.keka public.zip-archive all
