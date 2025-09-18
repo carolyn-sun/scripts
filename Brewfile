@@ -19,8 +19,6 @@ brew "swiftformat"
 cask "bilibili"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
-# Continuation of Clash Verge - A Clash Meta GUI based on Tauri
-cask "clash-verge-rev"
 # Voice and text chat software
 cask "discord"
 # Display control utility
