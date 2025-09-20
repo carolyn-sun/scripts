@@ -28,8 +28,8 @@ git config --global filter.lfs.process "git-lfs filter-process"
 git config --global filter.lfs.required true
 ## git user info
 git config --global user.email "117613176+carolyn-sun@users.noreply.github.com"
-git config --global user.name "Carolyn"
-git config --global user.signingkey CF65594A9A28BFF655A6D862DED2EA3A5A20EEB9
+git config --global user.name "Carolyn Sun"
+git config --global user.signingkey 8F6BD4F2EE99ABC178462265BEEEB56FCE35A975
 ## signature
 git config --global commit.gpgsign true
 ## gpg app path
