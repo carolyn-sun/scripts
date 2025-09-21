@@ -76,6 +76,8 @@ cask "whatsapp"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 # OpenJDK distribution from Azul
+cask "zulu@17"
+# OpenJDK distribution from Azul
 cask "zulu@21"
 vscode "alefragnani.project-manager"
 vscode "chadalen.vscode-jetbrains-icon-theme"
