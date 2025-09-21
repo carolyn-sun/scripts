@@ -19,6 +19,8 @@ brew "swiftformat"
 cask "bilibili"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Desktop client that supports multiple LLM providers
+cask "cherry-studio"
 # Voice and text chat software
 cask "discord"
 # Display control utility
