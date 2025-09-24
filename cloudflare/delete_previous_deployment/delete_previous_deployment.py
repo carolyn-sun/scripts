@@ -25,13 +25,16 @@ def delete_deployment(deployment_id):
 def main():
     deployments = get_deployments()
     if len(deployments) < 2:
-        print("No previous deployment to delete.")
+        print("No previous deployments to delete.")
         return
-    previous_deployment = deployments[1]
-    deployment_id = previous_deployment["id"]
-    print(f"Going to DELETE deployment: {deployment_id}")
-    result = delete_deployment(deployment_id)
-    print("Deletion result:", result)
+    for d in deployments[1:]:
+        deployment_id = d["id"]
+        print(f"Going to DELETE deployment: {deployment_id}")
+        try:
+            result = delete_deployment(deployment_id)
+            print("Deletion result:", result)
+        except Exception as e:
+            print(f"Failed to delete {deployment_id}: {e}")
 
 if __name__ == "__main__":
     main()
