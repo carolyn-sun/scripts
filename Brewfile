@@ -7,6 +7,8 @@ brew "cask"
 brew "duti"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Git extension for versioning large files
+brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Configurable static site generator
@@ -75,10 +77,6 @@ cask "visual-studio-code"
 cask "whatsapp"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
-# OpenJDK distribution from Azul
-cask "zulu@17"
-# OpenJDK distribution from Azul
-cask "zulu@21"
 vscode "alefragnani.project-manager"
 vscode "chadalen.vscode-jetbrains-icon-theme"
 vscode "davidanson.vscode-markdownlint"
