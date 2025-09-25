@@ -59,6 +59,8 @@ cask "modrinth"
 cask "motrix"
 # Virtual machine client
 cask "omnissa-horizon-client"
+# Minecraft launcher
+cask "prismlauncher"
 # Peer to peer Bitorrent client
 cask "qbittorrent"
 # Tool that provides consistent, highly configurable symbols for apps
