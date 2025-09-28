@@ -7,6 +7,8 @@ brew "cask"
 brew "duti"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# GitHub command-line tool
+brew "gh"
 # Git extension for versioning large files
 brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
