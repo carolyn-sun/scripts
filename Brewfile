@@ -5,6 +5,8 @@ brew "aha"
 brew "cask"
 # Select default apps for documents and URL schemes on macOS
 brew "duti"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # GitHub command-line tool
@@ -15,8 +17,8 @@ brew "git-lfs"
 brew "go"
 # Configurable static site generator
 brew "hugo"
-# Fast, highly customisable system info script
-brew "neofetch"
+# Rsync for cloud storage
+brew "rclone"
 # Formatting tool for reformatting Swift code
 brew "swiftformat"
 # Official bilibili video streaming and sharing platform
@@ -94,6 +96,7 @@ vscode "isudox.vscode-jetbrains-keybindings"
 vscode "kameshkotwani.google-search"
 vscode "ms-ceintl.vscode-language-pack-zh-hans"
 vscode "redhat.vscode-yaml"
+vscode "unifiedjs.vscode-mdx"
 vscode "visualstudioexptteam.intellicode-api-usage-examples"
 vscode "visualstudioexptteam.vscodeintellicode"
 vscode "wmanth.jar-viewer"
