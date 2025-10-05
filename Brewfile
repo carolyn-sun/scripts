@@ -15,14 +15,10 @@ brew "gh"
 brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Configurable static site generator
-brew "hugo"
 # Rsync for cloud storage
 brew "rclone"
 # Formatting tool for reformatting Swift code
 brew "swiftformat"
-# Official bilibili video streaming and sharing platform
-cask "bilibili"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Desktop client that supports multiple LLM providers
@@ -35,6 +31,7 @@ cask "display-pilot"
 cask "docker-desktop"
 cask "font-intel-one-mono"
 cask "font-maple-mono"
+cask "font-noto-color-emoji"
 # Desktop client for GitHub repositories
 cask "github"
 # Web browser
@@ -45,8 +42,6 @@ cask "gpg-suite-no-mail"
 cask "hyperconnect"
 # Free and open-source media player
 cask "iina"
-# Terminal emulator as alternative to Apple's Terminal app
-cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # File archiver
@@ -79,15 +74,16 @@ cask "tor-browser"
 cask "uninstallpkg"
 # Open-source code editor
 cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
 # Native desktop client for WhatsApp
 cask "whatsapp"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 vscode "alefragnani.project-manager"
 vscode "chadalen.vscode-jetbrains-icon-theme"
-vscode "davidanson.vscode-markdownlint"
+vscode "digimezzo.jetbrains-rider-new-ui-theme"
 vscode "docsmsft.docs-markdown"
-vscode "edwinsulaiman.jetbrains-rider-dark-theme"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
