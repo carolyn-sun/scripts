@@ -19,6 +19,8 @@ brew "go"
 brew "rclone"
 # Formatting tool for reformatting Swift code
 brew "swiftformat"
+# Tool for managing your YubiKey configuration
+brew "ykman"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Desktop client that supports multiple LLM providers

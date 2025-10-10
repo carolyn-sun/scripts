@@ -12,7 +12,7 @@ git config --global filter.lfs.required true
 ## git user info
 git config --global user.email "117613176+carolyn-sun@users.noreply.github.com"
 git config --global user.name "Carolyn Sun"
-git config --global user.signingkey 58058FF41FEE360BBA0D9A38999983EBF216FCFF
+git config --global user.signingkey DE833DD498554F6C12DFA00A2CD843C7E300B7F3
 ## signature
 git config --global commit.gpgsign true
 ## gpg app path
