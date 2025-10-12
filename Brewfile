@@ -1,4 +1,3 @@
-tap "homebrew/cask"
 # ANSI HTML adapter
 brew "aha"
 # Emacs dependency management
