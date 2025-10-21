@@ -1,21 +1,13 @@
-# ANSI HTML adapter
-brew "aha"
 # Emacs dependency management
 brew "cask"
-# Select default apps for documents and URL schemes on macOS
-brew "duti"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Rsync for cloud storage
 brew "rclone"
-# Formatting tool for reformatting Swift code
-brew "swiftformat"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # OpenAI's official ChatGPT desktop app
