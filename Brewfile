@@ -10,8 +10,6 @@ brew "fastfetch"
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
-# Git extension for versioning large files
-brew "git-lfs"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Rsync for cloud storage
@@ -33,8 +31,6 @@ cask "docker-desktop"
 cask "font-intel-one-mono"
 cask "font-maple-mono"
 cask "font-noto-color-emoji"
-# Desktop client for GitHub repositories
-cask "github"
 # Web browser
 cask "google-chrome"
 # Tools to protect your files
@@ -61,8 +57,6 @@ cask "motrix"
 cask "omnissa-horizon-client"
 # Minecraft launcher
 cask "prismlauncher"
-# Peer to peer Bitorrent client
-cask "qbittorrent"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # System monitor for the menu bar
@@ -81,6 +75,8 @@ cask "warp"
 cask "whatsapp"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
+# Multiplayer code editor
+cask "zed"
 vscode "alefragnani.project-manager"
 vscode "chadalen.vscode-jetbrains-icon-theme"
 vscode "digimezzo.jetbrains-rider-new-ui-theme"
