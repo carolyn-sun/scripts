@@ -1,7 +1,7 @@
 #!/bin/zsh
 brew update
 brew upgrade
-brew cleanup
+brew cleanup -s
 rm -f ./Brewfile
 brew bundle dump --file=./Brewfile --describe
 if [[ $(git status --porcelain) ]]; then
