@@ -10,6 +10,8 @@ brew "gh"
 brew "rclone"
 # Tool for managing your YubiKey configuration
 brew "ykman"
+# Find security issues in GitHub Actions setups
+brew "zizmor"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Desktop client that supports multiple LLM providers
@@ -69,6 +71,7 @@ cask "whatsapp"
 cask "yubico-authenticator"
 # Multiplayer code editor
 cask "zed"
+vscode "akamud.vscode-theme-onedark"
 vscode "alefragnani.project-manager"
 vscode "chadalen.vscode-jetbrains-icon-theme"
 vscode "digimezzo.jetbrains-rider-new-ui-theme"
