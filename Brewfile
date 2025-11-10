@@ -1,3 +1,4 @@
+tap "tw93/tap"
 # Emacs dependency management
 brew "cask"
 # Like neofetch, but much faster because written mostly in C
@@ -12,6 +13,8 @@ brew "rclone"
 brew "ykman"
 # Find security issues in GitHub Actions setups
 brew "zizmor"
+# Comprehensive macOS cleanup and application uninstall tool
+brew "tw93/tap/mole"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Desktop client that supports multiple LLM providers
