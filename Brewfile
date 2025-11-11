@@ -52,8 +52,6 @@ cask "modrinth"
 cask "motrix"
 # Virtual machine client
 cask "omnissa-horizon-client"
-# Minecraft launcher
-cask "prismlauncher"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # System monitor for the menu bar
