@@ -27,8 +27,6 @@ cask "cherry-studio"
 cask "discord"
 # Display control utility
 cask "display-pilot"
-# App to build and share containerised applications and microservices
-cask "docker-desktop"
 cask "font-intel-one-mono"
 cask "font-maple-mono"
 cask "font-noto-color-emoji"
@@ -36,8 +34,6 @@ cask "font-noto-color-emoji"
 cask "google-chrome"
 # Tools to protect your files
 cask "gpg-suite-no-mail"
-# Cross-device interconnection service for the Xiaomi ecosystem
-cask "hyperconnect"
 # Free and open-source media player
 cask "iina"
 # JetBrains tools manager
