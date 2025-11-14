@@ -56,6 +56,8 @@ cask "modrinth"
 cask "motrix"
 # Virtual machine client
 cask "omnissa-horizon-client"
+# Replacement for Docker Desktop
+cask "orbstack"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # System monitor for the menu bar
