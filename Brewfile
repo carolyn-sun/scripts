@@ -68,8 +68,6 @@ cask "uninstallpkg"
 cask "visual-studio-code"
 # Rust-based terminal
 cask "warp"
-# Native desktop client for WhatsApp
-cask "whatsapp"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 # Multiplayer code editor
