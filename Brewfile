@@ -9,12 +9,16 @@ brew "ffmpeg"
 brew "gh"
 # Rsync for cloud storage
 brew "rclone"
+# Internet file retriever
+brew "wget"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Find security issues in GitHub Actions setups
 brew "zizmor"
 # Comprehensive macOS cleanup and application uninstall tool
 brew "tw93/tap/mole"
+# Video editing and image design platform
+cask "capcut"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Desktop client that supports multiple LLM providers
