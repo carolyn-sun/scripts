@@ -12,12 +12,16 @@ brew "gh"
 brew "rclone"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Tool for managing your YubiKey configuration
 brew "ykman"
 # Find security issues in GitHub Actions setups
 brew "zizmor"
 # Comprehensive macOS cleanup and application uninstall tool
 brew "tw93/tap/mole"
+# AI Coding Agent IDE
+cask "antigravity"
 # Video editing and image design platform
 cask "capcut"
 # OpenAI's official ChatGPT desktop app
@@ -77,15 +81,14 @@ cask "yubico-authenticator"
 cask "zed"
 vscode "akamud.vscode-theme-onedark"
 vscode "alefragnani.project-manager"
+vscode "angular.ng-template"
 vscode "chadalen.vscode-jetbrains-icon-theme"
 vscode "digimezzo.jetbrains-rider-new-ui-theme"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "gruntfuggly.todo-tree"
-vscode "isudox.vscode-jetbrains-keybindings"
 vscode "k--kato.intellij-idea-keybindings"
-vscode "kameshkotwani.google-search"
 vscode "ms-ceintl.vscode-language-pack-zh-hans"
 vscode "pdconsec.vscode-print"
 vscode "redhat.vscode-yaml"
