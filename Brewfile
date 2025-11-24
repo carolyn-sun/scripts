@@ -8,6 +8,8 @@ brew "fastfetch"
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
+# Turn movies into GIFs
+brew "gifify"
 # Rsync for cloud storage
 brew "rclone"
 # Internet file retriever
