@@ -41,6 +41,8 @@ cask "filo"
 cask "font-intel-one-mono"
 cask "font-maple-mono"
 cask "font-noto-color-emoji"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
 # Web browser
 cask "google-chrome"
 # Tools to protect your files
