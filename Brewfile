@@ -24,6 +24,8 @@ brew "zizmor"
 brew "tw93/tap/mole"
 # AI Coding Agent IDE
 cask "antigravity"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Video editing and image design platform
 cask "capcut"
 # OpenAI's official ChatGPT desktop app
