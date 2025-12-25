@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "minio/aistor"
 tap "tw93/tap"
 # Emacs dependency management
 brew "cask"
@@ -10,6 +11,8 @@ brew "ffmpeg"
 brew "gh"
 # Turn movies into GIFs
 brew "gifify"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
 # Rsync for cloud storage
 brew "rclone"
 # Internet file retriever
