@@ -15,6 +15,8 @@ brew "gifify"
 brew "go"
 # Rsync for cloud storage
 brew "rclone"
+# Backends for scanner access
+brew "sane-backends"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -82,6 +84,8 @@ cask "tor-browser"
 cask "uninstallpkg"
 # Open-source code editor
 cask "visual-studio-code"
+# App that provides drivers for older model scanners that are no longer supported
+cask "vuescan"
 # Rust-based terminal
 cask "warp"
 # Application for generating TOTP and HOTP codes
