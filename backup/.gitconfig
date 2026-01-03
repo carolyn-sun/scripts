@@ -1,0 +1,21 @@
+[http]
+	proxy = http://127.0.0.1:6152
+[https]
+	proxy = http://127.0.0.1:6152
+[user]
+	email = 117613176+carolyn-sun@users.noreply.github.com
+	signingkey = DE833DD498554F6C12DFA00A2CD843C7E300B7F3
+	name = Carolyn Sun
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg
+[core]
+	autocrlf = input
+# [url "ssh://git@github.com/"]
+#   insteadOf = https://github.com/
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
