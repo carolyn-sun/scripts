@@ -86,8 +86,6 @@ cask "tor-browser"
 cask "uninstallpkg"
 # Open-source code editor
 cask "visual-studio-code"
-# Rust-based terminal
-cask "warp"
 # Application for generating TOTP and HOTP codes
 cask "yubico-authenticator"
 # Multiplayer code editor
