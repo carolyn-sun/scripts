@@ -13,6 +13,8 @@ brew "gh"
 brew "gifify"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Fast, Dynamic Programming Language
+brew "julia"
 # Rsync for cloud storage
 brew "rclone"
 # Internet file retriever
@@ -66,6 +68,8 @@ cask "miniconda"
 cask "modrinth"
 # Open-source download manager
 cask "motrix"
+# Document scanning application
+cask "naps2"
 # Virtual machine client
 cask "omnissa-horizon-client"
 # Replacement for Docker Desktop
