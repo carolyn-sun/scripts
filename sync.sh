@@ -9,10 +9,17 @@ mkdir -p "$BACKUP_DIR"
 
 echo "Syncing configs to $BACKUP_DIR ..."
 
-if [ -f ~/.gitconfig ]; then
-    cp ~/.gitconfig "$BACKUP_DIR/.gitconfig"
-    echo "✓ .gitconfig"
-fi
+# 从 list 文件读取配置并备份
+while IFS=: read -r src dest || [ -n "$src" ]; do
+    # 跳过空行和注释
+    [[ -z "$src" || "$src" =~ ^# ]] && continue
+    # 展开 ~
+    src="${src/#\~/$HOME}"
+    if [ -f "$src" ]; then
+        cp "$src" "$BACKUP_DIR/$dest"
+        echo "✓ $dest"
+    fi
+done < "$SCRIPT_DIR/list"
 
 # Brewfile
 if command -v brew &> /dev/null; then

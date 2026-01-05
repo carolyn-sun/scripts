@@ -18,13 +18,20 @@ echo "set completion-ignore-case on" >> ~/.inputrc
 echo "zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'" >> ~/.zshrc
 echo "✓ Shell"
 
-# Git
-if [ -f "$BACKUP_DIR/.gitconfig" ]; then
-    cp "$BACKUP_DIR/.gitconfig" ~/.gitconfig
-    echo "✓ .gitconfig"
-else
-    echo "✗ backup/.gitconfig not found"
-fi
+# 从 list 文件读取配置并恢复
+while IFS=: read -r src dest || [ -n "$src" ]; do
+    # 跳过空行和注释
+    [[ -z "$src" || "$src" =~ ^# ]] && continue
+    # 展开 ~
+    src="${src/#\~/$HOME}"
+    if [ -f "$BACKUP_DIR/$dest" ]; then
+        mkdir -p "$(dirname "$src")"
+        cp "$BACKUP_DIR/$dest" "$src"
+        echo "✓ $dest"
+    else
+        echo "✗ backup/$dest not found"
+    fi
+done < "$SCRIPT_DIR/list"
 
 # Homebrew
 if [ -f "$BACKUP_DIR/Brewfile" ]; then
