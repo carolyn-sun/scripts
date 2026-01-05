@@ -80,6 +80,8 @@ cask "sf-symbols"
 cask "stats"
 # Network toolbox
 cask "surge"
+# Desktop client for Telegram messenger
+cask "telegram-desktop"
 # Web browser focusing on security
 cask "tor-browser"
 # PKG software package uninstall tool
