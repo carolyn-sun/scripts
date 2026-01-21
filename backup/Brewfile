@@ -5,7 +5,7 @@ tap "tw93/tap"
 brew "cask"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # GitHub command-line tool
 brew "gh"
@@ -74,6 +74,8 @@ cask "naps2"
 cask "omnissa-horizon-client"
 # Replacement for Docker Desktop
 cask "orbstack"
+# Minecraft launcher
+cask "prismlauncher"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # System monitor for the menu bar
