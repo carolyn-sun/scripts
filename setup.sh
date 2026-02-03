@@ -79,4 +79,8 @@ duti -s com.aone.keka public.tar-archive all
 duti -s com.aone.keka org.gnu.gnu-zip-archive all
 echo "✓ Default apps"
 
+# Mihomo
+sudo ln -s /opt/homebrew/bin/mihomo /usr/local/bin/mihomo
+echo "✓ Mihomo"
+
 echo "===== All done ====="
