@@ -1,3 +1,4 @@
+tap "gm-vm/repo"
 tap "homebrew/cask"
 tap "minio/aistor"
 tap "tw93/tap"
@@ -15,6 +16,10 @@ brew "gifify"
 brew "go"
 # Fast, Dynamic Programming Language
 brew "julia"
+# Another rule-based tunnel in Go, formerly known as ClashMeta
+brew "mihomo"
+# Open client for Cisco AnyConnect VPN
+brew "openconnect"
 # Rsync for cloud storage
 brew "rclone"
 # Internet file retriever
@@ -29,8 +34,8 @@ brew "zizmor"
 brew "tw93/tap/mole"
 # AI Coding Agent IDE
 cask "antigravity"
-# Tool to flash OS images to SD cards & USB drives
-cask "balenaetcher"
+# Official bilibili video streaming and sharing platform
+cask "bilibili"
 # Video editing and image design platform
 cask "capcut"
 # OpenAI's official ChatGPT desktop app
@@ -41,6 +46,8 @@ cask "cherry-studio"
 cask "discord"
 # Display control utility
 cask "display-pilot"
+# Tool to write Fedora images to portable media files
+cask "fedora-media-writer"
 # AI-powered email client designed for Gmail
 cask "filo"
 cask "font-intel-one-mono"
