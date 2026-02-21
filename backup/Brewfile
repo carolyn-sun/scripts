@@ -34,6 +34,8 @@ brew "zizmor"
 brew "tw93/tap/mole"
 # AI Coding Agent IDE
 cask "antigravity"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
 # Official bilibili video streaming and sharing platform
 cask "bilibili"
 # Video editing and image design platform
@@ -106,7 +108,6 @@ vscode "alefragnani.project-manager"
 vscode "angular.ng-template"
 vscode "chadalen.vscode-jetbrains-icon-theme"
 vscode "digimezzo.jetbrains-rider-new-ui-theme"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "gruntfuggly.todo-tree"
