@@ -4,6 +4,8 @@ tap "minio/aistor"
 tap "tw93/tap"
 # Emacs dependency management
 brew "cask"
+# Select default apps for documents and URL schemes on macOS
+brew "duti"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Play, record, convert, and stream select audio and video codecs
@@ -44,8 +46,6 @@ cask "capcut"
 cask "chatgpt"
 # Desktop client that supports multiple LLM providers
 cask "cherry-studio"
-# Voice and text chat software
-cask "discord"
 # Display control utility
 cask "display-pilot"
 # Tool to write Fedora images to portable media files
@@ -77,8 +77,8 @@ cask "miniconda"
 cask "modrinth"
 # Open-source download manager
 cask "motrix"
-# Document scanning application
-cask "naps2"
+# Cloud gaming platform
+cask "nvidia-geforce-now"
 # Virtual machine client
 cask "omnissa-horizon-client"
 # Replacement for Docker Desktop
