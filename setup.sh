@@ -57,7 +57,6 @@ duti -s com.google.antigravity .conf all
 duti -s com.google.antigravity .log all
 duti -s com.google.antigravity .vtt all
 duti -s com.google.antigravity .xml all
-duti -s com.google.antigravity .html all
 duti -s com.google.antigravity .css all
 duti -s com.google.antigravity .js all
 duti -s com.google.antigravity .ts all
@@ -69,7 +68,7 @@ duti -s com.google.antigravity .yaml all
 duti -s com.google.antigravity public.xml all
 duti -s com.google.antigravity public.json all
 duti -s com.google.antigravity public.yaml all
-duti -s com.google.antigravity public.csv all
+duti -s com.google.antigravity .csv all
 duti -s com.google.antigravity public.source-code all
 ## Keka
 duti -s com.aone.keka public.zip-archive all
