@@ -49,28 +49,28 @@ fi
 
 # Default apps
 echo "Setting default apps..."
-## VS Code
-duti -s com.microsoft.VSCode public.plain-text all
-duti -s com.microsoft.VSCode public.data all
-duti -s com.microsoft.VSCode .md all
-duti -s com.microsoft.VSCode .conf all
-duti -s com.microsoft.VSCode .log all
-duti -s com.microsoft.VSCode .vtt all
-duti -s com.microsoft.VSCode .xml all
-duti -s com.microsoft.VSCode .html all
-duti -s com.microsoft.VSCode .css all
-duti -s com.microsoft.VSCode .js all
-duti -s com.microsoft.VSCode .ts all
-duti -s com.microsoft.VSCode .jsx all
-duti -s com.microsoft.VSCode .tsx all
-duti -s com.microsoft.VSCode .py all
-duti -s com.microsoft.VSCode .yml all
-duti -s com.microsoft.VSCode .yaml all
-duti -s com.microsoft.VSCode public.xml all
-duti -s com.microsoft.VSCode public.json all
-duti -s com.microsoft.VSCode public.yaml all
-duti -s com.microsoft.VSCode public.csv all
-duti -s com.microsoft.VSCode public.source-code all
+## Antigravity
+duti -s com.google.antigravity public.plain-text all
+duti -s com.google.antigravity public.data all
+duti -s com.google.antigravity .md all
+duti -s com.google.antigravity .conf all
+duti -s com.google.antigravity .log all
+duti -s com.google.antigravity .vtt all
+duti -s com.google.antigravity .xml all
+duti -s com.google.antigravity .html all
+duti -s com.google.antigravity .css all
+duti -s com.google.antigravity .js all
+duti -s com.google.antigravity .ts all
+duti -s com.google.antigravity .jsx all
+duti -s com.google.antigravity .tsx all
+duti -s com.google.antigravity .py all
+duti -s com.google.antigravity .yml all
+duti -s com.google.antigravity .yaml all
+duti -s com.google.antigravity public.xml all
+duti -s com.google.antigravity public.json all
+duti -s com.google.antigravity public.yaml all
+duti -s com.google.antigravity public.csv all
+duti -s com.google.antigravity public.source-code all
 ## Keka
 duti -s com.aone.keka public.zip-archive all
 duti -s com.aone.keka com.rarlab.rar-archive all
