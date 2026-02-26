@@ -50,3 +50,5 @@
 
 font-size = 16
 macos-icon = xray
+window-width = 100
+window-height = 30
