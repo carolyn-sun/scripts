@@ -40,18 +40,10 @@ cask "antigravity"
 cask "balenaetcher"
 # Official bilibili video streaming and sharing platform
 cask "bilibili"
-# Video editing and image design platform
-cask "capcut"
-# OpenAI's official ChatGPT desktop app
-cask "chatgpt"
-# Desktop client that supports multiple LLM providers
-cask "cherry-studio"
 # Display control utility
 cask "display-pilot"
 # Launcher for *Epic Games* games
 cask "epic-games"
-# Tool to write Fedora images to portable media files
-cask "fedora-media-writer"
 # AI-powered email client designed for Gmail
 cask "filo"
 cask "font-intel-one-mono"
@@ -93,12 +85,8 @@ cask "sf-symbols"
 cask "stats"
 # Network toolbox
 cask "surge"
-# Desktop client for Telegram messenger
-cask "telegram-desktop"
 # Web browser focusing on security
 cask "tor-browser"
-# PKG software package uninstall tool
-cask "uninstallpkg"
 # Open-source code editor
 cask "visual-studio-code"
 # Application for generating TOTP and HOTP codes
