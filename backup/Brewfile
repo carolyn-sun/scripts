@@ -48,6 +48,8 @@ cask "chatgpt"
 cask "cherry-studio"
 # Display control utility
 cask "display-pilot"
+# Launcher for *Epic Games* games
+cask "epic-games"
 # Tool to write Fedora images to portable media files
 cask "fedora-media-writer"
 # AI-powered email client designed for Gmail
