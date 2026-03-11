@@ -10,6 +10,8 @@ brew "duti"
 brew "fastfetch"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Interact with Google Gemini AI models from the command-line
+brew "gemini-cli"
 # GitHub command-line tool
 brew "gh"
 # Turn movies into GIFs
@@ -22,8 +24,12 @@ brew "julia"
 brew "mihomo"
 # Open client for Cisco AnyConnect VPN
 brew "openconnect"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Rsync for cloud storage
 brew "rclone"
+# Markup-based typesetting system
+brew "typst"
 # Internet file retriever
 brew "wget"
 # JavaScript package manager
@@ -49,6 +55,10 @@ cask "filo"
 cask "font-intel-one-mono"
 cask "font-maple-mono"
 cask "font-noto-color-emoji"
+cask "font-noto-sans"
+cask "font-noto-sans-cjk"
+cask "font-noto-serif"
+cask "font-noto-serif-sc"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -71,8 +81,8 @@ cask "miniconda"
 cask "modrinth"
 # Open-source download manager
 cask "motrix"
-# Cloud gaming platform
-cask "nvidia-geforce-now"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 # Virtual machine client
 cask "omnissa-horizon-client"
 # Replacement for Docker Desktop
@@ -89,7 +99,7 @@ cask "surge"
 cask "tor-browser"
 # Open-source code editor
 cask "visual-studio-code"
-# Application for generating TOTP and HOTP codes
+# Full-featured companion app to the YubiKey
 cask "yubico-authenticator"
 # Multiplayer code editor
 cask "zed"
