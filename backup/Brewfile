@@ -71,6 +71,8 @@ cask "iina"
 cask "jetbrains-toolbox"
 # File archiver
 cask "keka"
+# Full TeX Live distribution without GUI applications
+cask "mactex-no-gui"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Meet, chat, call, and collaborate in just one place
@@ -81,8 +83,8 @@ cask "miniconda"
 cask "modrinth"
 # Open-source download manager
 cask "motrix"
-# Knowledge base that works on top of a local folder of plain text Markdown files
-cask "obsidian"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Virtual machine client
 cask "omnissa-horizon-client"
 # Replacement for Docker Desktop
